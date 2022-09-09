@@ -18,13 +18,13 @@
 		17F61406A52F55F10B36FAAC1007C8E8 /* TOCropViewControllerBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 97A93DCEF2B1499B1F84D43333829DC7 /* TOCropViewControllerBundle.bundle */; };
 		1ACAAB74335448B39D49F87B1991DBB3 /* UIImage+CropRotate.h in Headers */ = {isa = PBXBuildFile; fileRef = 861D1975EE1F10A4B83C8BB160169341 /* UIImage+CropRotate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C6A3920C4BCCD1C6587B77B903A94B1 /* TOCropViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A188D596EC259D79E722D2CC6080711 /* TOCropViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2045694A9C543C42B45D3B21F4EAF902 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		242BDACA72C117A685395579255E8462 /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4B38CFEF2291CEE6690D7D694B3D650E /* pt.lproj */; };
 		2A55C3D9A52D2D69B4620D9F2DA4E03B /* fa.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 604E3F24286F2C4A7F2FEFFB63C9D112 /* fa.lproj */; };
 		322DEBBD84FA2A111F8AB1F055B3A8BC /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48096BB596B68A2971B5615A7B844245 /* TOCropViewController.m */; };
 		325F5E0DFE35BB21EC34EEA8BD152151 /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5862DC5F2C195A6AAEE9869B4E5FF9E0 /* TOCropOverlayView.m */; };
 		3C1033326696275C856EC47132BDA167 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = AC425917BBEC823365C0D62DE48DD441 /* TOActivityCroppedImageProvider.m */; };
 		4202F53A2709CB76C5F3467329723098 /* fa-IR.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 74CF12EC039772C0F3862B5907A15C13 /* fa-IR.lproj */; };
-		4A590B1EDB609B2D897ACB6F16DDC32E /* Pods-Mementar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD4CC600339D6541C403BAE4B4457AC /* Pods-Mementar-dummy.m */; };
 		4E65364BE491D7DAACE996EF32A815F5 /* sk.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7BB149E31DC158D47086658B6268E2CD /* sk.lproj */; };
 		553EACC5E47A898BA8E6BB374DAE689F /* ca.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F989FC22960E4496DC07FF9B6703507A /* ca.lproj */; };
 		57F925400D3EFFF0ACEF2C551F038F69 /* hu.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 56C050BABF2208AFEA53ABDF71088B6A /* hu.lproj */; };
@@ -34,6 +34,7 @@
 		6032EF8BEF6DE02B5E1360616EECCEC2 /* CropViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 332D554ADC02369587FD88031B0D3A1E /* CropViewController-dummy.m */; };
 		60A2CF183D675A74ED4648120144C0B3 /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = C44858419396723AC0502BE0B6224E91 /* TOCropView.m */; };
 		66DD69921C79C3113FD43C5D49383E45 /* ar.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9FB0B72A175FD99D254EBD0F4CFEC084 /* ar.lproj */; };
+		6C94C63DAE4DC5F626E4CF9B46202B28 /* Pods-Questar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDFC5CC624522D3A119E2623F33FD0C /* Pods-Questar-dummy.m */; };
 		708515D6834361D40017CAAF4F2CC0B3 /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = E96268D59EE34D6BAC190A52D0AD30DF /* TOCropToolbar.m */; };
 		7F971E91AD347A108F3C26A2AA63EF3A /* cs.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C05BB197990C66E260B8C16D3B319AA5 /* cs.lproj */; };
 		864A27FE9624C06E48C89299BB201910 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = DA3438861FB3D774806CF42509D1B927 /* en.lproj */; };
@@ -45,10 +46,9 @@
 		9FD58B37E5DD8E08AB41E2E2209666EC /* TOCropOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = FDA1ACB6EACFE89C8FF78911BEDF8623 /* TOCropOverlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA47ACF829DB5700C93B677EEE6C747C /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 782B9C26B991CC4C1997BC83D212FFEF /* Base.lproj */; };
 		AE4462034FCC4B26BB5538A2698EAED4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AEC82DA20358294879F409B2818F6DEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B56F5B91020C46BC39AC6C2FEA387D70 /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = C75495794A791B2388B935AC1B892E4A /* TOCropViewControllerTransitioning.m */; };
 		B6ADBA6217AA1EE7CD56221D4906AA59 /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = E53B8EDB4135FDDF00FAB9FCD72F898A /* TOCroppedImageAttributes.m */; };
-		C65C84195BD88CCA6E368937ED988F39 /* Pods-Mementar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA6898F1A03D1F1A8B8AAE75BFAAE645 /* Pods-Mementar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C717703F9D8CF505E67A43C2EDEF8371 /* Pods-Questar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 308EE4E1155FDB3D80BC17920B617B4A /* Pods-Questar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF5456A057BDD804FA5D5382A45CB413 /* da-DK.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1F48620F3F262F77331C442A847E8E56 /* da-DK.lproj */; };
 		D2596A3450D23C209A5B43995BE085E0 /* TOCroppedImageAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = FD32C55F516A43B810ABACF043704678 /* TOCroppedImageAttributes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D279F5B45BFCF40646A474AA5DB37C0B /* id.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 725944E1A37D8BB71D5B825F95FE309A /* id.lproj */; };
@@ -67,7 +67,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C60FCBE47F5CC1858D35AC3E5F2D44B4 /* PBXContainerItemProxy */ = {
+		840A2C71B191CE38078E396F3634C4A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -85,35 +85,38 @@
 
 /* Begin PBXFileReference section */
 		03A867CEAF9754D0B3614EC97A1A7DF0 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hans.lproj"; path = "Objective-C/TOCropViewController/Resources/zh-Hans.lproj"; sourceTree = "<group>"; };
-		05AFB72A44D9062D25DD5C9739C5195C /* Pods-Mementar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mementar.debug.xcconfig"; sourceTree = "<group>"; };
 		06E4F16A75860954F1E8613F2036A855 /* CropViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropViewController.swift; path = Swift/CropViewController/CropViewController.swift; sourceTree = "<group>"; };
 		07EC8453C5412770373B42E04A297ACB /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = it.lproj; path = "Objective-C/TOCropViewController/Resources/it.lproj"; sourceTree = "<group>"; };
 		0E1B43DF289F4D27D5F006D8FE43C3A7 /* CropViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CropViewController-prefix.pch"; sourceTree = "<group>"; };
 		113B0FBF7F65B97C4FEE01B87032BF0E /* CropViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CropViewController-umbrella.h"; sourceTree = "<group>"; };
+		1164554626165776B8C8330B64DCD49A /* Pods-Questar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Questar.release.xcconfig"; sourceTree = "<group>"; };
 		19672639458D5EF5EC76A48F6BF5A2B3 /* CropViewController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CropViewController; path = CropViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F48620F3F262F77331C442A847E8E56 /* da-DK.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "da-DK.lproj"; path = "Objective-C/TOCropViewController/Resources/da-DK.lproj"; sourceTree = "<group>"; };
 		204BB4396683C4CA13516AD5523AF56D /* pt-BR.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "pt-BR.lproj"; path = "Objective-C/TOCropViewController/Resources/pt-BR.lproj"; sourceTree = "<group>"; };
+		308EE4E1155FDB3D80BC17920B617B4A /* Pods-Questar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Questar-umbrella.h"; sourceTree = "<group>"; };
 		332D554ADC02369587FD88031B0D3A1E /* CropViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CropViewController-dummy.m"; sourceTree = "<group>"; };
-		3AF917321745C185D632BD616A658F7E /* Pods-Mementar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mementar.release.xcconfig"; sourceTree = "<group>"; };
 		48096BB596B68A2971B5615A7B844245 /* TOCropViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewController.m; path = "Objective-C/TOCropViewController/TOCropViewController.m"; sourceTree = "<group>"; };
+		495852B7881FA78A31DBC7D554FEE4DE /* Pods-Questar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Questar-frameworks.sh"; sourceTree = "<group>"; };
 		4A188D596EC259D79E722D2CC6080711 /* TOCropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewController.h; path = "Objective-C/TOCropViewController/TOCropViewController.h"; sourceTree = "<group>"; };
 		4A9D935C23B3CEF503732E4E7CEDBEDD /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewControllerTransitioning.h; path = "Objective-C/TOCropViewController/Models/TOCropViewControllerTransitioning.h"; sourceTree = "<group>"; };
 		4B38CFEF2291CEE6690D7D694B3D650E /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pt.lproj; path = "Objective-C/TOCropViewController/Resources/pt.lproj"; sourceTree = "<group>"; };
+		4CA5E239883AC9EF20054FF3E6672152 /* Pods-Questar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Questar.debug.xcconfig"; sourceTree = "<group>"; };
 		56C050BABF2208AFEA53ABDF71088B6A /* hu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = hu.lproj; path = "Objective-C/TOCropViewController/Resources/hu.lproj"; sourceTree = "<group>"; };
 		585C1D50B1BFC85F6C0EA2101B11A6F1 /* CropViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CropViewController.modulemap; sourceTree = "<group>"; };
 		5862DC5F2C195A6AAEE9869B4E5FF9E0 /* TOCropOverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropOverlayView.m; path = "Objective-C/TOCropViewController/Views/TOCropOverlayView.m"; sourceTree = "<group>"; };
+		586B79F0D3C7AF86617CF1A070C457B4 /* Pods-Questar */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Questar"; path = Pods_Questar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE9F24AD0433A7A7E8A8F0B11498D82 /* ms.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ms.lproj; path = "Objective-C/TOCropViewController/Resources/ms.lproj"; sourceTree = "<group>"; };
 		5D335F892EAED03485EDB3C05A65F67B /* TOCropViewConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropViewConstants.h; path = "Objective-C/TOCropViewController/Constants/TOCropViewConstants.h"; sourceTree = "<group>"; };
 		5DEF521BC255BF271033D7BEC495D69D /* TOCropScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropScrollView.h; path = "Objective-C/TOCropViewController/Views/TOCropScrollView.h"; sourceTree = "<group>"; };
 		604E3F24286F2C4A7F2FEFFB63C9D112 /* fa.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fa.lproj; path = "Objective-C/TOCropViewController/Resources/fa.lproj"; sourceTree = "<group>"; };
 		66E03097891C1EAE07E11A6C80CE268A /* CropViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CropViewController.debug.xcconfig; sourceTree = "<group>"; };
-		6B221C0587F2854A6850FD098D4ABC49 /* Pods-Mementar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Mementar.modulemap"; sourceTree = "<group>"; };
-		715F7B323E73C549E041D56A7312D692 /* Pods-Mementar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mementar-Info.plist"; sourceTree = "<group>"; };
+		7158344C86A4D23FEC64A679164A0B42 /* Pods-Questar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Questar-acknowledgements.markdown"; sourceTree = "<group>"; };
 		725944E1A37D8BB71D5B825F95FE309A /* id.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = id.lproj; path = "Objective-C/TOCropViewController/Resources/id.lproj"; sourceTree = "<group>"; };
 		727CE0CCDB2E6BF8136781457AD38A10 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = de.lproj; path = "Objective-C/TOCropViewController/Resources/de.lproj"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		74CF12EC039772C0F3862B5907A15C13 /* fa-IR.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "fa-IR.lproj"; path = "Objective-C/TOCropViewController/Resources/fa-IR.lproj"; sourceTree = "<group>"; };
 		782B9C26B991CC4C1997BC83D212FFEF /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = Base.lproj; path = "Objective-C/TOCropViewController/Resources/Base.lproj"; sourceTree = "<group>"; };
+		7AFB465B7F1B2FA7942F1183632BF9A2 /* Pods-Questar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Questar-acknowledgements.plist"; sourceTree = "<group>"; };
 		7BB149E31DC158D47086658B6268E2CD /* sk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = sk.lproj; path = "Objective-C/TOCropViewController/Resources/sk.lproj"; sourceTree = "<group>"; };
 		820EA9E886FAFCF46438E2DBD79A1C45 /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = "zh-Hant.lproj"; path = "Objective-C/TOCropViewController/Resources/zh-Hant.lproj"; sourceTree = "<group>"; };
 		861D1975EE1F10A4B83C8BB160169341 /* UIImage+CropRotate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CropRotate.h"; path = "Objective-C/TOCropViewController/Categories/UIImage+CropRotate.h"; sourceTree = "<group>"; };
@@ -125,7 +128,6 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F45D8A42874619FE67E8A78EFA3C4DA /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fr.lproj; path = "Objective-C/TOCropViewController/Resources/fr.lproj"; sourceTree = "<group>"; };
 		9FB0B72A175FD99D254EBD0F4CFEC084 /* ar.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ar.lproj; path = "Objective-C/TOCropViewController/Resources/ar.lproj"; sourceTree = "<group>"; };
-		A200C59AFA3BE56B2F1A1554FE1D867A /* Pods-Mementar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mementar-frameworks.sh"; sourceTree = "<group>"; };
 		A891CE00FCF9CDC93E6F5ACED521132C /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = nl.lproj; path = "Objective-C/TOCropViewController/Resources/nl.lproj"; sourceTree = "<group>"; };
 		A8DE099FEB0F04A09450DF02FAA9EA07 /* TOCropToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropToolbar.h; path = "Objective-C/TOCropViewController/Views/TOCropToolbar.h"; sourceTree = "<group>"; };
 		AC425917BBEC823365C0D62DE48DD441 /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOActivityCroppedImageProvider.m; path = "Objective-C/TOCropViewController/Models/TOActivityCroppedImageProvider.m"; sourceTree = "<group>"; };
@@ -136,8 +138,7 @@
 		C581D6AB6D1C4A410FF33BD6687CC0D6 /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOActivityCroppedImageProvider.h; path = "Objective-C/TOCropViewController/Models/TOActivityCroppedImageProvider.h"; sourceTree = "<group>"; };
 		C75495794A791B2388B935AC1B892E4A /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropViewControllerTransitioning.m; path = "Objective-C/TOCropViewController/Models/TOCropViewControllerTransitioning.m"; sourceTree = "<group>"; };
 		CDACF7D82D5574DB4F5626A097C24881 /* CropViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CropViewController-Info.plist"; sourceTree = "<group>"; };
-		CEC8913A37659E5C474FB031D8FDC981 /* Pods-Mementar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mementar-acknowledgements.plist"; sourceTree = "<group>"; };
-		CFD4CC600339D6541C403BAE4B4457AC /* Pods-Mementar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mementar-dummy.m"; sourceTree = "<group>"; };
+		CFDFC5CC624522D3A119E2623F33FD0C /* Pods-Questar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Questar-dummy.m"; sourceTree = "<group>"; };
 		D58970862108D761C47BEE0B564BF9CD /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pl.lproj; path = "Objective-C/TOCropViewController/Resources/pl.lproj"; sourceTree = "<group>"; };
 		D6C0AC86695EB12BE4D0507BA386C54F /* TOCropScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropScrollView.m; path = "Objective-C/TOCropViewController/Views/TOCropScrollView.m"; sourceTree = "<group>"; };
 		D771C7CB96BB30F1DA10903F18DC01E5 /* ro.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ro.lproj; path = "Objective-C/TOCropViewController/Resources/ro.lproj"; sourceTree = "<group>"; };
@@ -147,30 +148,29 @@
 		E7907617E16FE5F81A439E768172D599 /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ja.lproj; path = "Objective-C/TOCropViewController/Resources/ja.lproj"; sourceTree = "<group>"; };
 		E96268D59EE34D6BAC190A52D0AD30DF /* TOCropToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TOCropToolbar.m; path = "Objective-C/TOCropViewController/Views/TOCropToolbar.m"; sourceTree = "<group>"; };
 		EA24ABF1FA69053906D5CA677D08DE28 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ru.lproj; path = "Objective-C/TOCropViewController/Resources/ru.lproj"; sourceTree = "<group>"; };
-		F48F196BC0C7B0B85F097E2A39ABC62B /* Pods-Mementar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mementar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F2C556653615DD898BC935CD25B387F7 /* Pods-Questar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Questar.modulemap"; sourceTree = "<group>"; };
 		F564FC7837EB53BCCBF4B3589AF2E797 /* fi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fi.lproj; path = "Objective-C/TOCropViewController/Resources/fi.lproj"; sourceTree = "<group>"; };
+		F6C9E99CB19ED0A5C084720CB353FFAA /* Pods-Questar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Questar-Info.plist"; sourceTree = "<group>"; };
 		F6E5698D4F40CE7EF3C4D2D9F6E317AE /* CropViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CropViewController.h; path = Swift/CropViewController/CropViewController.h; sourceTree = "<group>"; };
 		F989FC22960E4496DC07FF9B6703507A /* ca.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ca.lproj; path = "Objective-C/TOCropViewController/Resources/ca.lproj"; sourceTree = "<group>"; };
-		FA6898F1A03D1F1A8B8AAE75BFAAE645 /* Pods-Mementar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mementar-umbrella.h"; sourceTree = "<group>"; };
 		FD32C55F516A43B810ABACF043704678 /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCroppedImageAttributes.h; path = "Objective-C/TOCropViewController/Models/TOCroppedImageAttributes.h"; sourceTree = "<group>"; };
 		FDA1ACB6EACFE89C8FF78911BEDF8623 /* TOCropOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TOCropOverlayView.h; path = "Objective-C/TOCropViewController/Views/TOCropOverlayView.h"; sourceTree = "<group>"; };
-		FDB6169EE29AB374A70FEAE7BB33CEA0 /* Pods-Mementar */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Mementar"; path = Pods_Mementar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8DC54462E25B8D98E412EF3CC4B50F /* UIImage+CropRotate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CropRotate.m"; path = "Objective-C/TOCropViewController/Categories/UIImage+CropRotate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0FCCE133ABA61212A2E1A71E69E5B131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2045694A9C543C42B45D3B21F4EAF902 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8C2F2D8903A98B6E8AAF883CA1463423 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		94B5F3DD0B99E924E6D525E8E77289CD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AEC82DA20358294879F409B2818F6DEC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +185,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03FD715DF66F083981A77B8F81A5FCCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19672639458D5EF5EC76A48F6BF5A2B3 /* CropViewController */,
+				97A93DCEF2B1499B1F84D43333829DC7 /* TOCropViewControllerBundle.bundle */,
+				586B79F0D3C7AF86617CF1A070C457B4 /* Pods-Questar */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		25A5EC51606085B647E24C9AE2460F5B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,10 +255,10 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		50B406AB73E7834B03A7EDBFC9DFDCED /* Targets Support Files */ = {
+		5329838559BDA45115A402E1AF9C141B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D3BC15B6A387648826848BA41DA6D933 /* Pods-Mementar */,
+				B076771BFA2BEDDBF14D43C8634B9524 /* Pods-Questar */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -261,14 +271,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		644DE3A15394134FA1DF031A474E08C9 /* Products */ = {
+		B076771BFA2BEDDBF14D43C8634B9524 /* Pods-Questar */ = {
 			isa = PBXGroup;
 			children = (
-				19672639458D5EF5EC76A48F6BF5A2B3 /* CropViewController */,
-				97A93DCEF2B1499B1F84D43333829DC7 /* TOCropViewControllerBundle.bundle */,
-				FDB6169EE29AB374A70FEAE7BB33CEA0 /* Pods-Mementar */,
+				F2C556653615DD898BC935CD25B387F7 /* Pods-Questar.modulemap */,
+				7158344C86A4D23FEC64A679164A0B42 /* Pods-Questar-acknowledgements.markdown */,
+				7AFB465B7F1B2FA7942F1183632BF9A2 /* Pods-Questar-acknowledgements.plist */,
+				CFDFC5CC624522D3A119E2623F33FD0C /* Pods-Questar-dummy.m */,
+				495852B7881FA78A31DBC7D554FEE4DE /* Pods-Questar-frameworks.sh */,
+				F6C9E99CB19ED0A5C084720CB353FFAA /* Pods-Questar-Info.plist */,
+				308EE4E1155FDB3D80BC17920B617B4A /* Pods-Questar-umbrella.h */,
+				4CA5E239883AC9EF20054FF3E6672152 /* Pods-Questar.debug.xcconfig */,
+				1164554626165776B8C8330B64DCD49A /* Pods-Questar.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-Questar";
+			path = "Target Support Files/Pods-Questar";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -277,8 +294,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				25A5EC51606085B647E24C9AE2460F5B /* Pods */,
-				644DE3A15394134FA1DF031A474E08C9 /* Products */,
-				50B406AB73E7834B03A7EDBFC9DFDCED /* Targets Support Files */,
+				03FD715DF66F083981A77B8F81A5FCCE /* Products */,
+				5329838559BDA45115A402E1AF9C141B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -288,23 +305,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D3BC15B6A387648826848BA41DA6D933 /* Pods-Mementar */ = {
-			isa = PBXGroup;
-			children = (
-				6B221C0587F2854A6850FD098D4ABC49 /* Pods-Mementar.modulemap */,
-				F48F196BC0C7B0B85F097E2A39ABC62B /* Pods-Mementar-acknowledgements.markdown */,
-				CEC8913A37659E5C474FB031D8FDC981 /* Pods-Mementar-acknowledgements.plist */,
-				CFD4CC600339D6541C403BAE4B4457AC /* Pods-Mementar-dummy.m */,
-				A200C59AFA3BE56B2F1A1554FE1D867A /* Pods-Mementar-frameworks.sh */,
-				715F7B323E73C549E041D56A7312D692 /* Pods-Mementar-Info.plist */,
-				FA6898F1A03D1F1A8B8AAE75BFAAE645 /* Pods-Mementar-umbrella.h */,
-				05AFB72A44D9062D25DD5C9739C5195C /* Pods-Mementar.debug.xcconfig */,
-				3AF917321745C185D632BD616A658F7E /* Pods-Mementar.release.xcconfig */,
-			);
-			name = "Pods-Mementar";
-			path = "Target Support Files/Pods-Mementar";
 			sourceTree = "<group>";
 		};
 		E11C7D6AB7A8F77BF2503ADD7D30DD08 /* CropViewController */ = {
@@ -359,34 +359,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4EC130918BD5FF3D90C87A17E08FFD48 /* Headers */ = {
+		EE4FFCCE7E431852B45B2A3BE066E9BF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C65C84195BD88CCA6E368937ED988F39 /* Pods-Mementar-umbrella.h in Headers */,
+				C717703F9D8CF505E67A43C2EDEF8371 /* Pods-Questar-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4A1BAA797B012FFA4BEC78FE49F5A87D /* Pods-Mementar */ = {
+		4FDDFB2DD2663D0BDA3B6EE92A05E764 /* Pods-Questar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B313E8E51338CA52E0ACF5BC8CD59E62 /* Build configuration list for PBXNativeTarget "Pods-Mementar" */;
+			buildConfigurationList = 39A67F7A9488AA78884EBF2D61DFE9F8 /* Build configuration list for PBXNativeTarget "Pods-Questar" */;
 			buildPhases = (
-				4EC130918BD5FF3D90C87A17E08FFD48 /* Headers */,
-				BA110EF68800417D979E95B36098620F /* Sources */,
-				94B5F3DD0B99E924E6D525E8E77289CD /* Frameworks */,
-				CED363D08B5D3F4130D958D68F108263 /* Resources */,
+				EE4FFCCE7E431852B45B2A3BE066E9BF /* Headers */,
+				D2600666E6B758AF355B01ED5FB58A80 /* Sources */,
+				0FCCE133ABA61212A2E1A71E69E5B131 /* Frameworks */,
+				7E05C616537195887A6CACB89FE6BD7E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0B09B47A33326032A460274E37A33A16 /* PBXTargetDependency */,
+				3B44C6DAA56F95EDD49496516A00AEF6 /* PBXTargetDependency */,
 			);
-			name = "Pods-Mementar";
-			productName = Pods_Mementar;
-			productReference = FDB6169EE29AB374A70FEAE7BB33CEA0 /* Pods-Mementar */;
+			name = "Pods-Questar";
+			productName = Pods_Questar;
+			productReference = 586B79F0D3C7AF86617CF1A070C457B4 /* Pods-Questar */;
 			productType = "com.apple.product-type.framework";
 		};
 		BB4EEF23ECB2BAF774CE8EFA5AF90C40 /* CropViewController-TOCropViewControllerBundle */ = {
@@ -470,13 +470,13 @@
 				"zh-Hant",
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 644DE3A15394134FA1DF031A474E08C9 /* Products */;
+			productRefGroup = 03FD715DF66F083981A77B8F81A5FCCE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				CC81A5995F9CEB2971CBA61ACA13FCA3 /* CropViewController */,
 				BB4EEF23ECB2BAF774CE8EFA5AF90C40 /* CropViewController-TOCropViewControllerBundle */,
-				4A1BAA797B012FFA4BEC78FE49F5A87D /* Pods-Mementar */,
+				4FDDFB2DD2663D0BDA3B6EE92A05E764 /* Pods-Questar */,
 			);
 		};
 /* End PBXProject section */
@@ -490,7 +490,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CED363D08B5D3F4130D958D68F108263 /* Resources */ = {
+		7E05C616537195887A6CACB89FE6BD7E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -561,22 +561,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA110EF68800417D979E95B36098620F /* Sources */ = {
+		D2600666E6B758AF355B01ED5FB58A80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A590B1EDB609B2D897ACB6F16DDC32E /* Pods-Mementar-dummy.m in Sources */,
+				6C94C63DAE4DC5F626E4CF9B46202B28 /* Pods-Questar-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0B09B47A33326032A460274E37A33A16 /* PBXTargetDependency */ = {
+		3B44C6DAA56F95EDD49496516A00AEF6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CropViewController;
 			target = CC81A5995F9CEB2971CBA61ACA13FCA3 /* CropViewController */;
-			targetProxy = C60FCBE47F5CC1858D35AC3E5F2D44B4 /* PBXContainerItemProxy */;
+			targetProxy = 840A2C71B191CE38078E396F3634C4A8 /* PBXContainerItemProxy */;
 		};
 		F8B687E82BA0B461A8A48C403379C22F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -784,9 +784,9 @@
 			};
 			name = Debug;
 		};
-		6DEFC4904489690B81E452A0D8EB6A7A /* Release */ = {
+		66F8DDF0678DEAC393FB6A716ABB48ED /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AF917321745C185D632BD616A658F7E /* Pods-Mementar.release.xcconfig */;
+			baseConfigurationReference = 1164554626165776B8C8330B64DCD49A /* Pods-Questar.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -798,7 +798,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Mementar/Pods-Mementar-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Questar/Pods-Questar-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -807,7 +807,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Mementar/Pods-Mementar.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Questar/Pods-Questar.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -822,9 +822,9 @@
 			};
 			name = Release;
 		};
-		82B1F85A87B656B8E5CB79FDF8366C15 /* Debug */ = {
+		8283C502FB5F45A999331C30457ED3CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05AFB72A44D9062D25DD5C9739C5195C /* Pods-Mementar.debug.xcconfig */;
+			baseConfigurationReference = 4CA5E239883AC9EF20054FF3E6672152 /* Pods-Questar.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -836,7 +836,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Mementar/Pods-Mementar-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Questar/Pods-Questar-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -845,7 +845,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Mementar/Pods-Mementar.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Questar/Pods-Questar.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -905,20 +905,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		39A67F7A9488AA78884EBF2D61DFE9F8 /* Build configuration list for PBXNativeTarget "Pods-Questar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8283C502FB5F45A999331C30457ED3CC /* Debug */,
+				66F8DDF0678DEAC393FB6A716ABB48ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09909ECBA13E8F70A928465E7F7A9A92 /* Debug */,
 				2DE0D8898245310716431F92FA4989FF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B313E8E51338CA52E0ACF5BC8CD59E62 /* Build configuration list for PBXNativeTarget "Pods-Mementar" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				82B1F85A87B656B8E5CB79FDF8366C15 /* Debug */,
-				6DEFC4904489690B81E452A0D8EB6A7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

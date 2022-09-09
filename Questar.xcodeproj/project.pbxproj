@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A1AC9F540CD384A5A5069E9 /* Pods_Questar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6C18F5E11727A9A742E82B /* Pods_Questar.framework */; };
 		9C09DF2328C8EFFE00086D4D /* ARVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C09DF2228C8EFFE00086D4D /* ARVC.storyboard */; };
 		9C8D897F28C8E77A0081F008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D897E28C8E77A0081F008 /* AppDelegate.swift */; };
 		9C8D898128C8E77A0081F008 /* ARVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8D898028C8E77A0081F008 /* ARVC.swift */; };
@@ -21,14 +22,14 @@
 		9CF6D2C028CB41F000A33D11 /* Quest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF6D2BF28CB41F000A33D11 /* Quest.swift */; };
 		9CF6D2C228CB430300A33D11 /* QuestStepCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF6D2C128CB430300A33D11 /* QuestStepCell.swift */; };
 		9CF6D2C428CB465800A33D11 /* QuestStepCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CF6D2C328CB465800A33D11 /* QuestStepCell.xib */; };
-		EAB9F48D9F21CC94778F877E /* Pods_Mementar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B6A903A80B86EB42C3F0A6 /* Pods_Mementar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07F40D032235738D8195EDB2 /* Pods-Questar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Questar.release.xcconfig"; path = "Target Support Files/Pods-Questar/Pods-Questar.release.xcconfig"; sourceTree = "<group>"; };
+		299BECAA3DD3E88ECB766232 /* Pods-Questar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Questar.debug.xcconfig"; path = "Target Support Files/Pods-Questar/Pods-Questar.debug.xcconfig"; sourceTree = "<group>"; };
 		42B34030695AECDD9C304ACC /* Pods-Mementar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mementar.debug.xcconfig"; path = "Target Support Files/Pods-Mementar/Pods-Mementar.debug.xcconfig"; sourceTree = "<group>"; };
-		96B6A903A80B86EB42C3F0A6 /* Pods_Mementar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mementar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C09DF2228C8EFFE00086D4D /* ARVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ARVC.storyboard; sourceTree = "<group>"; };
-		9C8D897B28C8E77A0081F008 /* Mementar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mementar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8D897B28C8E77A0081F008 /* Questar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Questar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C8D897E28C8E77A0081F008 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C8D898028C8E77A0081F008 /* ARVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARVC.swift; sourceTree = "<group>"; };
 		9C8D898228C8E77A0081F008 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
@@ -43,6 +44,7 @@
 		9CF6D2C128CB430300A33D11 /* QuestStepCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestStepCell.swift; sourceTree = "<group>"; };
 		9CF6D2C328CB465800A33D11 /* QuestStepCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestStepCell.xib; sourceTree = "<group>"; };
 		D617DDF25C6EA383EF85C6A2 /* Pods-Mementar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mementar.release.xcconfig"; path = "Target Support Files/Pods-Mementar/Pods-Mementar.release.xcconfig"; sourceTree = "<group>"; };
+		EC6C18F5E11727A9A742E82B /* Pods_Questar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Questar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAB9F48D9F21CC94778F877E /* Pods_Mementar.framework in Frameworks */,
+				2A1AC9F540CD384A5A5069E9 /* Pods_Questar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +62,7 @@
 		6BF762165C61CF0E0D56C87C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				96B6A903A80B86EB42C3F0A6 /* Pods_Mementar.framework */,
+				EC6C18F5E11727A9A742E82B /* Pods_Questar.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -70,6 +72,8 @@
 			children = (
 				42B34030695AECDD9C304ACC /* Pods-Mementar.debug.xcconfig */,
 				D617DDF25C6EA383EF85C6A2 /* Pods-Mementar.release.xcconfig */,
+				299BECAA3DD3E88ECB766232 /* Pods-Questar.debug.xcconfig */,
+				07F40D032235738D8195EDB2 /* Pods-Questar.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -77,7 +81,7 @@
 		9C8D897228C8E77A0081F008 = {
 			isa = PBXGroup;
 			children = (
-				9C8D897D28C8E77A0081F008 /* Mementar */,
+				9C8D897D28C8E77A0081F008 /* Questar */,
 				9C8D897C28C8E77A0081F008 /* Products */,
 				7A4DEEDCFC56719C42A84247 /* Pods */,
 				6BF762165C61CF0E0D56C87C /* Frameworks */,
@@ -87,12 +91,12 @@
 		9C8D897C28C8E77A0081F008 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C8D897B28C8E77A0081F008 /* Mementar.app */,
+				9C8D897B28C8E77A0081F008 /* Questar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C8D897D28C8E77A0081F008 /* Mementar */ = {
+		9C8D897D28C8E77A0081F008 /* Questar */ = {
 			isa = PBXGroup;
 			children = (
 				9CF6D2BE28CB41E300A33D11 /* QuestModels */,
@@ -105,7 +109,7 @@
 				9C8D898928C8E77D0081F008 /* LaunchScreen.storyboard */,
 				9CF6D2BA28CB39B300A33D11 /* Storyboardable.swift */,
 			);
-			path = Mementar;
+			path = Questar;
 			sourceTree = "<group>";
 		};
 		9CF6D2B428CB269200A33D11 /* AR VC */ = {
@@ -148,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9C8D897A28C8E77A0081F008 /* Mementar */ = {
+		9C8D897A28C8E77A0081F008 /* Questar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C8D898E28C8E77D0081F008 /* Build configuration list for PBXNativeTarget "Mementar" */;
+			buildConfigurationList = 9C8D898E28C8E77D0081F008 /* Build configuration list for PBXNativeTarget "Questar" */;
 			buildPhases = (
 				BF828A6D24BBDFBCF1454CCA /* [CP] Check Pods Manifest.lock */,
 				9C8D897728C8E77A0081F008 /* Sources */,
@@ -162,9 +166,9 @@
 			);
 			dependencies = (
 			);
-			name = Mementar;
+			name = Questar;
 			productName = Mementar;
-			productReference = 9C8D897B28C8E77A0081F008 /* Mementar.app */;
+			productReference = 9C8D897B28C8E77A0081F008 /* Questar.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -182,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9C8D897628C8E77A0081F008 /* Build configuration list for PBXProject "Mementar" */;
+			buildConfigurationList = 9C8D897628C8E77A0081F008 /* Build configuration list for PBXProject "Questar" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -195,7 +199,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9C8D897A28C8E77A0081F008 /* Mementar */,
+				9C8D897A28C8E77A0081F008 /* Questar */,
 			);
 		};
 /* End PBXProject section */
@@ -223,15 +227,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Mementar/Pods-Mementar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Questar/Pods-Questar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Mementar/Pods-Mementar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Questar/Pods-Questar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mementar/Pods-Mementar-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Questar/Pods-Questar-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BF828A6D24BBDFBCF1454CCA /* [CP] Check Pods Manifest.lock */ = {
@@ -249,7 +253,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Mementar-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Questar-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -412,7 +416,7 @@
 		};
 		9C8D898F28C8E77D0081F008 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42B34030695AECDD9C304ACC /* Pods-Mementar.debug.xcconfig */;
+			baseConfigurationReference = 299BECAA3DD3E88ECB766232 /* Pods-Questar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -420,6 +424,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZJ5ZVQC3DA;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Questar;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -433,7 +438,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.d3pr3ss3r.Mementar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.d3pr3ss3r.Questar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -443,7 +448,7 @@
 		};
 		9C8D899028C8E77D0081F008 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D617DDF25C6EA383EF85C6A2 /* Pods-Mementar.release.xcconfig */;
+			baseConfigurationReference = 07F40D032235738D8195EDB2 /* Pods-Questar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +456,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZJ5ZVQC3DA;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Questar;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -464,7 +470,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.d3pr3ss3r.Mementar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.d3pr3ss3r.Questar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -475,7 +481,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C8D897628C8E77A0081F008 /* Build configuration list for PBXProject "Mementar" */ = {
+		9C8D897628C8E77A0081F008 /* Build configuration list for PBXProject "Questar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C8D898C28C8E77D0081F008 /* Debug */,
@@ -484,7 +490,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C8D898E28C8E77D0081F008 /* Build configuration list for PBXNativeTarget "Mementar" */ = {
+		9C8D898E28C8E77D0081F008 /* Build configuration list for PBXNativeTarget "Questar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C8D898F28C8E77D0081F008 /* Debug */,

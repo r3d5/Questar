@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_MementarVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_MementarVersionString[];
+FOUNDATION_EXPORT double Pods_QuestarVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_QuestarVersionString[];
 
